@@ -1,0 +1,11 @@
+/*style*/
+@import"./ultilidades/cores.css";
+@import"./ultilidades/tipografia.css";
+
+/*Global*/
+@import"./global/header.css";
+@import"./global/global.css";
+
+/*ultilidades*/
+@import"./ultilidades/componentes.css";
+
