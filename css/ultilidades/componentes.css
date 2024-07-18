@@ -5,3 +5,21 @@
     padding-right: 20px;
     margin: 0 auto;
 }
+
+.botao {
+    padding: 16px 32px;
+    background: linear-gradient(#ffb600, #f2a50c);
+    display: inline-block;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    color: var(--cor-p5);
+    font: 600 1.25rem/1.35 "Poppins", sans-serif;
+    max-width: max-content;
+    border: none;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background: linear-gradient(#ffb60d, #e59317);
+}
