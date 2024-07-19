@@ -12,6 +12,7 @@
 /*home*/
 @import"./home/introducao.css";
 @import"./home/tecnologia.css";
+@import"./home/parceiros.css";
 
 /*Bicicletas-listas*/
 @import"./bicicletas/bicicletas-listas.css";
