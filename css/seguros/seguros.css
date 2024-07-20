@@ -32,6 +32,10 @@
     margin-bottom: 40px;
 }
 
+.footer-informacoes > h3{
+    text-transform: capitalize;
+}
+
 .seguros-item span{
     grid-column: 2;
     display: block;
@@ -71,5 +75,15 @@
 @media(max-width:800px){
     .seguros{
         grid-template-columns:  1fr;
+    }
+}
+
+@media(max-width:600px){
+    .footer{
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+    .footer-copy{
+        margin-top: 0px;
     }
 }
