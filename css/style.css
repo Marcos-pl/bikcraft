@@ -31,4 +31,8 @@
 @import"./contato/lojas.css";
 
 /*termos*/
-@import"./termos/termos.css"
+@import"./termos/termos.css";
+
+/*bicicleta*/
+@import"./bicicleta/bicilcetas.css";
+@import"./bicicleta/seguro.css";
