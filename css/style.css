@@ -29,3 +29,6 @@
 /*contato*/
 @import"./contato/contato.css";
 @import"./contato/lojas.css";
+
+/*termos*/
+@import"./termos/termos.css"
