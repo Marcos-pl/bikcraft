@@ -127,6 +127,17 @@
     display: grid;
     gap: 20px;
   }
+
+#seguro-prata, #seguro-ouro{
+    display: none;
+}
+#prata:checked ~ #seguro-prata,
+#ouro:checked ~ #seguro-ouro{
+display: block;
+}
+#seguro-prata span, #seguro-ouro span{
+    display: none;
+}
   
   .orcamento-detalhes {
     display: none;
